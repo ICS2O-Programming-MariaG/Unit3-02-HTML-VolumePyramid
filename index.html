@@ -21,6 +21,29 @@
     <!-- Link to JS file -->
     <script src="./js/script.js"></script>
     <h1>Calculating the Volume of a Triangle-Based Pyramid</h1>
-    <!-- NOTE TO SELF: ADD FAVICON -->
+    <!-- Div for style -->
+    <div id="first">
+      <p>Welcome! This web page will use your input to calculate the volume of a triangle-based pyramid. See the image below for clarification about the names of the pyramid's dimensions. Please input the dimensions of the base and the height of the pyramid in the form below:</p>
+      <img src="./images/dimensions.png" alt="The base height, base length and height of a pyramid">
+    </div>
+    <!-- Another div for style -->
+    <div id="second">
+      <h3>Your Input:</h3>
+      <!-- Form for user input -->
+      <form action="javascript:inputSent()">
+        <label for="height-base">Height of the pyramid's triangular base (in cm)</label>
+        <input type="float" step="0.01" id="height-base" placeholder="Base height..."><br><br>
+        <label for="base-length">Base length of the pyramid's triangular base (in cm)</label>
+        <input type="float" step="0.01" id="base-length" placeholder="Base length..."><br><br>
+        <label for="height-pyramid">Height of the pyramid</label>
+        <input type="float" step = "0.01" id="height-pyramid" placeholder="Pyramid height..."><br><br>
+        <input type="submit" value="Calculate">
+      </form>
+    </div>
+    <!-- Last styled div -->
+    <div id="third">
+      <div id="results">
+      </div>
+    </div>
   </body>
 </html>

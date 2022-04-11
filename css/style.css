@@ -1,0 +1,55 @@
+/* Created by: MariaG
+* Created on: April 11, 2022
+* This CSS file defines the style for index.html
+* ICS2O-Unit3-01-HTML-VolumePyramid
+*/
+
+body {
+  width: 80%;
+  margin: 5% 10%;
+}
+
+img {
+  width: 50%;
+  margin-left: 25%;
+}
+
+h1 {
+  font-family: "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  background-color: #55679b;
+  color: white;
+}
+
+#first {
+  background-color: #f3d8f3;
+  padding: 20px;
+}
+
+p {
+  width: 80%;
+  margin-left: 10%;
+}
+
+#second {
+  background-color: #fdd8e5;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+form, h3 {
+  margin-left: 10%;
+}
+
+#third {
+  background-color: #fbffb5;
+  color: #14339a;
+  padding: 20px;
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+#results {
+  margin-left: 10%;
+}
